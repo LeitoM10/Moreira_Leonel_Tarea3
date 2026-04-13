@@ -33,5 +33,6 @@ class Vehiculo {
     public void mostrar() {
         System.out.println("Marca: " + marca);
         System.out.println("Velocidad: " + velocidad + " km/h");
+        System.out.println("----------------------");
     }
 }

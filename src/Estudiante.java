@@ -27,5 +27,6 @@ class Estudiante {
     public void mostrar() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Nota: " + nota);
+        System.out.println("----------------------");
     }
 }
