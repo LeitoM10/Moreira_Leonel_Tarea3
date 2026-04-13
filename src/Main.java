@@ -32,4 +32,23 @@ void main() {
     cuenta1.retirar(30.0);
     cuenta1.mostrarInformacion();
 
+    //Ejercicio 4
+
+        Estudiante e1 = new Estudiante("Leonel", 9.5);
+        e1.mostrar();
+
+        e1.setNota(11); 
+        e1.setNota(8.0); 
+        e1.mostrar();
+
+    //Ejercicio 5
+
+    Vehiculo v1 = new Vehiculo("Toyota", 60);
+        v1.mostrar();
+
+        v1.acelerar(20);
+        v1.mostrar();
+
+        v1.setVelocidad(-10); 
+
 }
